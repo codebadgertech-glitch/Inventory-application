@@ -4,8 +4,8 @@
 - Theme Context (light/dark) persisted to localStorage
 - Single DashboardLayout (Navbar + Sidebar + Outlet)
 - Inventory page: stats, search, responsive table, Add/Edit modal, Delete
-- Data: comes from `public/data/db.json` via Fetch; then CRUD in localStorage
-- Optional API: set `VITE_API_BASE_URL` to use Axios (json-server supported)
+- API: set `VITE_API_BASE_URL` to use Axios (json-server supported)
+- Optional: Data can also comes from `public/data/db.json` via Fetch; then CRUD in localStorage
 
 ## Quick Start
 
@@ -14,7 +14,7 @@ npm install
 npm run dev
 ```
 
-## Optional API (json-server) - on a new terminal
+## API (json-server) - on a new terminal
 
 ```bash
 npm run api
