@@ -1,0 +1,33 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+.table-wrap {
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: var(--panel);
+  overflow: auto;
+}
+th,
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+thead th {
+  position: sticky;
+  top: 0;
+  background: var(--panel);
+  z-index: 1;
+}
+tr.low {
+  background: rgba(255, 193, 7, 0.1);
+}
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+.empty {
+  padding: 1rem;
+}

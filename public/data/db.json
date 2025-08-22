@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Laptop Pro 14",
+      "sku": "LP14-2025",
+      "category": "Computers",
+      "quantity": 20,
+      "price": 1299.99
+    },
+    {
+      "id": 2,
+      "name": "Wireless Mouse A2",
+      "sku": "MOU-A2",
+      "category": "Accessories",
+      "quantity": 8,
+      "price": 24.5
+    },
+    {
+      "id": 3,
+      "name": "Mechanical Keyboard K7",
+      "sku": "KB-K7",
+      "category": "Accessories",
+      "quantity": 35,
+      "price": 79
+    },
+    {
+      "id": 4,
+      "name": "27\" 4K Monitor",
+      "sku": "MN-27U",
+      "category": "Displays",
+      "quantity": 12,
+      "price": 299
+    },
+    {
+      "id": 5,
+      "name": "USB-C Hub 7-in-1",
+      "sku": "HUB-7C",
+      "category": "Accessories",
+      "quantity": 5,
+      "price": 49.99
+    },
+    {
+      "name": "basketball",
+      "sku": "34242",
+      "category": "abc",
+      "quantity": 3,
+      "price": 1.09,
+      "id": 6
+    }
+  ]
+}
